@@ -1,0 +1,22 @@
+/*for mobile devices*/
+@media (max-width: 500px){
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .navtop{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbottom{
+        overflow: auto;
+            }
+    .navbottom p {
+        display: block;
+    }
+}
